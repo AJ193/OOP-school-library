@@ -14,9 +14,7 @@
 
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[OOP-school-library
-\] ](#-OOP-school-library
-)
+- [📖 \[OOP-school-library](#-oop-school-library)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -27,7 +25,7 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Author ](#-author-)
+- [AJ193](#aj193)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -122,6 +120,11 @@ You can deploy this project using:
 - GitHub: [@AJ](https://github.com/AJ193)
 - Twitter: [@AJ](https://twitter.com/GhulamShabbir59)
 - LinkedIn: [@AJ](https://www.linkedin.com/in/ghulam-shabbir-225264247/)
+
+👤 **Sungabanja Thawethe**
+
+- GitHub: [@Sunga12](https://github.com/sunga12)
+- LinkedIn: [Sungabanja Thawethe](https://linkedin.com/in/sungabanja-thawethe)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
