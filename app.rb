@@ -138,14 +138,20 @@ class App
   end
 
   def create_rental
+    if @books.empty?
+      puts 'No books yet to create a rental'
+      return PromptUser.new.prompt_user(self)
+    elsif @people.empty?
+      puts 'No people yet to create a rental'
+      return PromptUser.new.prompt_user(self)
+    end
+
     print "Select a book from the following list by number:\n"
     list_all_books
-    prompt_user.new.prompt_user(self) if @books.empty?
     book_index = gets.chomp.to_i - 1
 
     print "Select a person from the following list by number:\n"
     list_all_people
-    prompt_user.new.prompt_user(self) if @people.empty?
     person_index = gets.chomp.to_i - 1
 
     print 'Date [yyyy/mm/dd] : '
