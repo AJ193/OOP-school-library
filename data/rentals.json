@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2023/03/23",
+    "title": "Harry Potter",
+    "author": "JK Rowling",
+    "id": "98",
+    "name": "James",
+    "age": 23,
+    "has_permission": true,
+    "type": "Student",
+    "classroom": "Ruby"
+  },
+  {
+    "date": "2023/11/26",
+    "title": "Taken",
+    "author": "Liam Neeson",
+    "id": 2,
+    "name": "Felix",
+    "age": 44,
+    "has_permission": true,
+    "type": "Teacher",
+    "specialization": "Doctor"
+  },
+  {
+    "date": "2022/07/02",
+    "title": "Fast X",
+    "author": "Vin Diesel",
+    "id": 234,
+    "name": "Hannah",
+    "age": 14,
+    "has_permission": false,
+    "type": "Student",
+    "classroom": "JavaScript"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 98,
+    "name": "James",
+    "age": 23,
+    "has_permission": true,
+    "type": "Student",
+    "classroom": "Ruby"
+  },
+  {
+    "id": 2,
+    "name": "Felix",
+    "age": 44,
+    "has_permission": true,
+    "type": "Teacher",
+    "specialization": "Doctor"
+  },
+  {
+    "id": 234,
+    "name": "Hannah",
+    "age": 14,
+    "has_permission": false,
+    "type": "Student",
+    "classroom": "JavaScript"
+  }
+]
