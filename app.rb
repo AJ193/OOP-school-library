@@ -4,18 +4,23 @@ require './teacher'
 require './book'
 require './rental'
 require './prompt_user'
+require './save_data'
+require './read_data'
 
 class App
   attr_reader :books, :people, :rentals
 
   def initialize
-    @books = []
-    @people = []
-    @rentals = []
+    @books = ReadData.new.read_books
+    @people = ReadData.new.read_people
+    @rentals = ReadData.new.read_rentals
   end
 
   def quit_app
-    puts 'Thank you for using this app! Now exiting...😊'
+    SaveData.new.save_books(@books)
+    SaveData.new.save_people(@people)
+    SaveData.new.save_rentals(@rentals)
+    puts 'Thank you for using this app! Now exiting...😊 '
     exit
   end
 
@@ -49,7 +54,7 @@ class App
     print 'Age: '
     age = gets.chomp.to_i
 
-    print 'Classroom: (B121, A233..) '
+    print 'Classroom:  '
     classroom = gets.chomp
 
     print 'Name: '
@@ -148,10 +153,12 @@ class App
 
     print "Select a book from the following list by number:\n"
     list_all_books
+    prompt_user.new.prompt_user(self) if @books.empty?
     book_index = gets.chomp.to_i - 1
 
     print "Select a person from the following list by number:\n"
     list_all_people
+    prompt_user.new.prompt_user(self) if @people.empty?
     person_index = gets.chomp.to_i - 1
 
     print 'Date [yyyy/mm/dd] : '
