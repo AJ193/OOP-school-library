@@ -8,7 +8,7 @@ class Book
   end
 
   def add_rentals(rental)
-    @rentals << rental unless @rentals.include?(rental)
+    @rentals.push(rental)
     rental.book = self
   end
 end
